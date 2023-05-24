@@ -7,10 +7,20 @@ all the command below is for terminal on mac or linux, i'm not sure about window
 make sure you have python3 installed and properly linked to terminal
 
 cd into the outer AUI folder:
-
+```
+pipenv install django
+```
+(install django for this specific project, seperate from the global packages, to avoid mess if working on multiple project)
 ```
 pipenv shell
 ```
 (to active seperate environment to store dependencies)
 
-///under working, tutorial not finished yet
+```
+python3 manage.py runserver
+```
+(start running server on localhost, instruction will be shown on the terminal)
+
+i do strongly encourage people to watch tutorial below to get idea on basis of working on a django project
+
+https://www.youtube.com/watch?v=rHux0gMZ3Eg
