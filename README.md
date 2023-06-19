@@ -8,9 +8,9 @@ make sure you have python3 installed and properly linked to terminal
 
 cd into the outer AUI folder:
 ```
-pipenv install django
+pipenv install
 ```
-(install django for this specific project, seperate from the global packages, to avoid mess if working on multiple project)
+(install dependent packages for this specific project, seperate from the global packages, to avoid mess if working on multiple project)
 ```
 pipenv shell
 ```
